@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero - Section Styling
+----------------------------- */
+
+.first-container {
+    height: 800px;
+    background-image: url(https://zuri.team/img/hero-bg.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.center-logo {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 69px;
+}
+
+.first-container h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #514949;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.first-container p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    width: 50%;
+}
+
+.hero-btn {
+    margin-top: 92px;
+    text-align: center;
+}
+
+.btn-red {
+    background-color: #E73328;
+    color: #fff;
+    margin-right: 24px;
+    padding: 12px 20px;
+    font-weight: 600;
+
+}
+
+.btn-red:hover {
+    background-color: #fff;
+    color:#E73328;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-red-outline {
+    background-color: #fff;
+    padding: 12px 20px;
+    color: #E73328;
+    font-weight: 600;
+
+}
+
+.btn-red-outline:hover {
+    background-color: #E73328;
+    color:#fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.programs h3 {
+    color: #E73328;
+    font-size: 14px;
+    margin-top: 141px;
+}
+
+.programs p {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+    font-weight: 600;
+}
+
+my-btn {
+    padding: 11px 28px;
+    border: 1px solid #E73328;
+}
+
+span {
+    color: #f8444f;
+}
+
+button {
+    padding: 6px;
+    border: 1px solid #f8444f;
+}
+
+/* Program Section
+------------------ */
+
+.program-content .heading {
+    font-size: 14px;
+    line-height: 24px;
+    color: #E73328;
+    margin-top: 141px;
+}
+
+.program-content p.tagline {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 48px;
+    font-weight: 600;
+}
+
+.program-card img {
+    margin-bottom: 48px;
+}
+
+img.card-bg-svg-1 {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    position:relative;
+}
+
+.card-programs {
+    position: absolute;
+    top: -20;
+    bottom: -20;
+}

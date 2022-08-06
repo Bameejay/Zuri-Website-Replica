@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn-danger {
+    background-color: #e7332b!important;
+}
+
+.btn-1 {
+background-color: #e7332b !important;
+border-radius: 0 0 8px 0 !important;
+color: #fff !important;
+font-size: 16px !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height: 19px !important;
+margin-right: 15px !important;
+padding: 11px 50px !important;
+text-transform: none !important;
+
+/* box-shadow: #787878 0px 0px 0px 0px, #787878 0px 2px 2px 0px, #787878 0px 1px 4px 0px !important; */
+}; 
+
+
+.nav-link {
+cursor: pointer;
+font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+font-weight: 500;
+line-height: 1.75;
+letter-spacing: 0.02857em;
+}
+
+#hero-section {
+    display: flex;
+    justify-content: center;
+}
+
+#hero-section p {
+    color: #787878 !important;
+    font-size: 19px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    width: 78% !important;
+}
+
+.hero-m {
+    margin-top: 100px;
+}
+
+#hero-section h3 {
+font-size: 40px !important;
+font-style: normal !important;
+font-weight: 700 !important;
+line-height: 49px !important;
+}
+
+#hero-section p {
+    margin: 30px 0;
+    letter-spacing: 0.02857em;
+}
+
+span {
+    color: #e7332b !important;
+}
+
+.btn-2 {
+    background-color: #585858 !important;
+    border-radius: 0 0 8px 0 !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 19px !important;
+    margin-right: 15px !important;
+    padding: 11px 50px !important;
+    text-transform: none !important;
+    border: none !important;
+    }
+
+.btn-1:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+
+.btn-2:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+}
