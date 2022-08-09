@@ -236,7 +236,7 @@ p.mid-card-paragraph {
 /* -------------
 Mobile Responsiveness */
 
-@media only screen and (max-width: 992px) and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     #footer-section{
         text-align: center;
     }
@@ -263,5 +263,17 @@ Mobile Responsiveness */
         margin-left: auto;
         font-weight: 500;
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #footer-section{
+        text-align: center;
+    }
+    .social-media-links {
+        margin-left: 0;
+    }
+    .footer-logo {
+        margin-bottom: 10px;
     }
 }
