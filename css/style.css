@@ -236,7 +236,7 @@ p.mid-card-paragraph {
 /* -------------
 Mobile Responsiveness */
 
-@media only screen and (max-width: 992px) and (max-width: 464px) {
+@media only screen and (max-width: 992px) and (max-width: 500px) {
     #footer-section{
         text-align: center;
     }
