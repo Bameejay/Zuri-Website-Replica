@@ -1,7 +1,13 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/johnsonfrancis/raw/upload/v1659974274/custom%20fonts/AvertaDemoPECuttedDemo-Regular_dghpn7_ajzfrx.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Averta, sans-serif;
 }
 
 /* Hero - Section Styling
@@ -26,9 +32,13 @@
     font-size: 32px;
     font-weight: 600;
     color: #514949;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
     padding-top: 70px;
+}
+
+.first-container p a {
+    text-decoration: none;
 }
 
 .first-container p {
@@ -37,43 +47,45 @@
     color: #514949;
     opacity: 0.9;
     text-align: center;
-    margin: auto;
-    font-weight: 600;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 500;
     width: 50%;
 }
 
-.hero-btn {
-    margin-top: 92px;
-    text-align: center;
+.first-container-btn{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
 }
 
-.btn-red {
-    background-color: #E73328;
-    color: #fff;
-    margin-right: 24px;
-    padding: 12px 20px;
-    font-weight: 600;
-
+.first-container-btn a {
+    text-decoration: none;
 }
 
-.btn-red:hover {
-    background-color: #fff;
-    color:#E73328;
-    transition: all 0.3s ease-in-out;
+.btn-primary {
+    background-color: #E73328 !important;
+    /* border-style: none!important; */
+    border-color: #E73328 !important;
 }
 
-.btn-red-outline {
-    background-color: #fff;
-    padding: 12px 20px;
-    color: #E73328;
-    font-weight: 600;
-
+.btn-primary:hover {
+    color: #E73328!important;
+    background-color: #fff!important;
+    border-color: #E73328!important;
 }
 
-.btn-red-outline:hover {
-    background-color: #E73328;
-    color:#fff;
-    transition: all 0.3s ease-in-out;
+.btn-outline-primary {
+    color: #E73328 !important;
+    border-color: #E73328 !important;
+}
+
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: #E73328 !important;
 }
 
 .programs h3 {
@@ -109,6 +121,17 @@ button {
 /* Program Section
 ------------------ */
 
+.programs_img_container img{
+    height: auto;
+    width: 25%;
+}
+
+.programs_img_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4rem;
+}
+
 .program-content .heading {
     font-size: 14px;
     line-height: 24px;
@@ -126,19 +149,99 @@ button {
     font-weight: 600;
 }
 
-.program-card img {
-    margin-bottom: 48px;
+.card {
+  height: 95%;
+  width: 100%;
+  margin-bottom: 80px;
 }
 
-img.card-bg-svg-1 {
-    width: 80%;
-    height: 80%;
-    margin: 0 auto;
-    position:relative;
+.card-body {
+    background-color: #FFFAFA!important;
 }
 
-.card-programs {
-    position: absolute;
-    top: -20;
-    bottom: -20;
+.card-body img {
+    width: 35%;
+}
+
+p.card-text-p {
+    font-weight: 500!important;
+    line-height: 24px!important;
+    font-size: 14px!important;
+    color: #514949!important;
+    opacity: 0.9!important;
+    max-width: 100%;
+}
+
+a.card-link  {
+    font-size: 14px!important;
+    font-weight: 600!important;
+    line-height: 24px!important;
+    color: #E7332B!important;
+    opacity: 0.9;
+}
+
+p.mid-card-paragraph {
+    padding-bottom: 26px;
+}
+
+.programs-container {
+    margin-top: -380px;
+}
+
+.social-media-links img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.social-media-links {
+    margin-left: 130px;
+}
+
+.links-heading {
+    color: #514949;
+    font-weight: 600;
+}
+
+.copyright {
+    color: #514949;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 16px;
+}
+
+#footer-section .row{
+    margin-top: 200px;
+}
+
+#footer-section hr {
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+    margin-top: 80px;
+}
+
+#footer-section li{
+    list-style-type: none;
+}
+
+#footer-section p a{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+    padding-left: 0;
+    color: #E73328;
+}
+
+/* -------------
+Mobile Responsiveness */
+
+@media only screen and (max-width: 992px) {
+    #footer-section{
+        text-align: center;
+    }
+
+    .social-media-links {
+        margin-left: 0;
+    }
 }
